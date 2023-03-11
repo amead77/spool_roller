@@ -1,9 +1,14 @@
 $fn = 16;
-
+/*
+basic dimensions
+*/
 cy_thickness = 20;
 cx_length = 200;
 cz_height = 60;
 
+/*
+support step dimensions
+*/
 cy_support_width = 20;
 c_support_hole_size = 6.5;
 cz_support_height = 10;
