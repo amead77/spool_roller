@@ -3,7 +3,7 @@ $fn = 16;
 basic dimensions
 */
 cy_thickness = 20;
-cx_length = 60;
+cx_length = 50;
 cz_height = 50;
 
 /*
@@ -12,7 +12,7 @@ support step dimensions
 cy_support_width = 20;
 c_support_hole_size = 6.5;
 cz_support_height = 10;
-//screw hole postition from sides
+//screw hole postition from sides (centered)
 cx_support_screw_pos = 20;
 //screw hole postition from edge
 cy_support_screw_pos = 7;
@@ -24,7 +24,8 @@ c_bearing_hole_size = 8.2;
 c_bearing_washer_size = 11;
 cy_bearing_washer_thickness = 2;
 c_bearing_hole_count = 1;
-c_bearing_hole_from_top = 10;
+//bearing hole position from the top (beaing will be centered on this)
+c_bearing_hole_from_top = 12;
 cx_bearing_hole_pos = 16;
 
 c_bearing_pos = (cx_length - (cx_bearing_hole_pos * 2)) / (c_bearing_hole_count - 1);
